@@ -1,6 +1,6 @@
 # PDF Reader Chatbot
 
-![PDF Reader Chatbot](path/to/your/image.png)
+![PDF Reader Chatbot](https://github.com/aryannnb1/PDF-Reader-Chatbot/blob/main/Screenshot%20(1014).png)
 
 ## Description
 A full-stack project for a PDF Reader Chatbot designed to assist users in reading and interacting with PDF files. Users can upload PDFs, ask questions about the content, and receive responses from the chatbot.
@@ -67,12 +67,6 @@ PDF-Reader-Chatbot/
 ├── LICENSE
 ├── README.md
 ```
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - [Flask](https://flask.palletsprojects.com/)
