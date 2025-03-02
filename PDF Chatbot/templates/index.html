@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>    
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar for PDF Uploads -->
+        <aside class="sidebar">
+            <h2>Upload PDFs</h2>
+            <input type="file" id="pdfUpload" multiple>
+            <button onclick="uploadFiles()">Upload</button>
+            <p id="uploadStatus"></p>
+        </aside>
+
+        <!-- Chat Section -->
+        <main class="chat-container">
+            <div class="chat-box" id="chatBox">
+                <div class="chat-message bot">Hello! Upload a PDF and ask me anything.</div>
+            </div>
+
+            <!-- Message Input -->
+            <div class="chat-input">
+                <input type="text" id="userMessage" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
